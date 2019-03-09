@@ -1,7 +1,7 @@
 class Puppy
 
     def name
-
+      @name = name 
     end
 
     def breed
@@ -9,5 +9,5 @@ class Puppy
 
     def age
     end
-    
+
 end

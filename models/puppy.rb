@@ -1,5 +1,13 @@
 class Puppy
-    @name = params["name"]
-    @breed = params["breed"]
-    @age = params["age"]
+
+    def name
+
+    end
+
+    def breed
+    end
+
+    def age
+    end
+    
 end

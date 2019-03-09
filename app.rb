@@ -13,7 +13,7 @@ class App < Sinatra::Base
 
   post '/puppy' do
     puppy = Puppy.new
-    @name = pl.piglatinize(params[:user_phrase])
+    @name = puppy.name(params[:user_phrase])
     erb :display_puppy
   end
 

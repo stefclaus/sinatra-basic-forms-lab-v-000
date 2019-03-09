@@ -1,5 +1,5 @@
 class Puppy
-
+  attr_accessor :name, :breed, :age 
     def name
       @name = name
     end
@@ -9,7 +9,7 @@ class Puppy
     end
 
     def age
-      @age = age 
+      @age = age
     end
 
 end

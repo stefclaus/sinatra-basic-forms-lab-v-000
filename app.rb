@@ -12,6 +12,8 @@ class App < Sinatra::Base
 
 
   post '/puppy' do
+    #pl = PigLatinizer.new
+    #  @piglatin = pl.piglatinize(params[:user_phrase])
     erb :display_puppy
   end
 
